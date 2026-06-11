@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentação Técnica - Linguagem C</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- NÃO CONSEGUI COLOCAR MEDIA QUERY NO CSS POIS DAVA ERRO PARA INICIAR RUN TEST -->
+  <style>
+@media (max-width:768px){
+  #navbar{
+    position:relative;
+    width:100%;                                   
+    height:auto;
+  }
+  #main-doc{
+    margin-left:0;
+  }
+  
+}
+</style>
+<!-- NÃO CONSEGUI COLOCAR MEDIA QUERY NO CSS POIS DAVA ERRO PARA INICIAR RUN TEST -->
+</head>
+<body>
+  <nav id="navbar">
+    <header>Documentação da Linguagem C</header>
+    <a class="nav-link" href="#Introdução">Introdução</a>
+    <a class="nav-link" href="#Variáveis">Variáveis</a>
+    <a class="nav-link" href="#Estruturas_de_Controle">Estruturas de Controle</a>
+    <a class="nav-link" href="#Funções">Funções</a>
+    <a class="nav-link" href="#Vetores_e_Matrizes">Vetores e Matrizes</a>
+    <a class="nav-link" href="#Ponteiros">Ponteiros</a>
+  </nav>
+<main id="main-doc">
+  <section class="main-section" id="Introdução">
+    <header>Introdução</header>
+    <p>A linguagem C foi criada por Dennis Ritchie em 1972.</p>
+    <p>Ela é amplamente utilizada no desenvolvimento de sistemas.</p>
+    <code>#include &lt;stdio.h&gt;</code>
+    <p>Possui alta performance e controle de memória.</p>
+    <ul>
+      <li>Rápida</li>
+      <li>Portável</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Variáveis">
+    <header>Variáveis</header>
+    <p>Variáveis armazenam valores na memória.</p>
+    <p>Devem ser declaradas antes do uso.</p>
+    <code>int idade = 20;</code>
+    <p>Existem diversos tipos de dados.</p>
+    <ul>
+      <li>int</li>
+      <li>float</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Estruturas_de_Controle">
+    <header>Estruturas de Controle</header>
+    <p>Permitem controlar o fluxo do programa.</p>
+    <p>As mais comuns são if, else e switch.</p>
+    <code>if(x &gt; 0){}</code>
+    <p>Também existem estruturas de repetição.</p>
+    <ul>
+      <li>for</li>
+      <li>while</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Funções">
+    <header>Funções</header>
+    <p>Funções organizam o código.</p>
+    <p>Facilitam reutilização e manutenção.</p>
+    <code>void mensagem(){}</code>
+    <p>Podem receber parâmetros e retornar valores.</p>
+  </section>
+  <section class="main-section" id="Vetores_e_Matrizes">
+    <header>Vetores e Matrizes</header>
+    <p>Vetores armazenam vários valores.</p>
+    <p>Matrizes representam tabelas de dados.</p>
+    <code>int vetor[10];</code>
+    <p>São estruturas fundamentais em programação.</p>
+  </section>
+  <section class="main-section" id="Ponteiros">
+    <header>Ponteiros</header>
+    <p>Ponteiros armazenam endereços de memória.</p>
+    <p>São recursos avançados da linguagem C.</p>
+    <code>int *p;</code>
+    <p>Permitem manipulação eficiente da memória.</p>
+  </section>
+</main>
+<script src="main.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
