@@ -1,59 +1,138 @@
-📚 Documentação Técnica da Linguagem C
+# 📚 Documentação Técnica da Linguagem C
 
-Projeto desenvolvido para o curso de Desenvolvimento Web Responsivo do FreeCodeCamp, com o objetivo de criar uma página de documentação técnica utilizando HTML e CSS.
+Projeto desenvolvido utilizando **HTML5**, **CSS3**, **JavaScript** e **Vite**, seguindo os requisitos do projeto **Technical Documentation Page** do FreeCodeCamp.
 
-📖 Sobre o Projeto
+---
 
-Esta aplicação apresenta uma documentação técnica sobre a linguagem de programação C, abordando seus principais conceitos, sintaxe básica, estruturas de controle, funções e manipulação de memória.
+## 📖 Sobre o Projeto
 
-A página foi desenvolvida seguindo os requisitos do projeto Technical Documentation Page do FreeCodeCamp, incluindo navegação lateral fixa, design responsivo e estrutura semântica adequada.
+Este projeto consiste em uma página de documentação técnica sobre a linguagem de programação **C**, apresentando conceitos fundamentais utilizados no desenvolvimento de software.
 
-🚀 Tecnologias Utilizadas
-HTML5
-CSS3
-JavaScript
-Vite
-✨ Funcionalidades
-Menu de navegação lateral fixo.
-Navegação por âncoras entre as seções.
-Layout responsivo para dispositivos móveis.
-Estrutura semântica utilizando elementos HTML apropriados.
-Exemplos de código em linguagem C.
-Documentação organizada em seções temáticas.
-📂 Estrutura do Projeto
-projeto-documentacao-c/
+A documentação foi organizada em seções com navegação lateral fixa, permitindo uma leitura clara e intuitiva do conteúdo. O projeto também possui layout responsivo para diferentes tamanhos de tela.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Vite
+
+---
+
+## ✨ Funcionalidades
+
+- Menu de navegação lateral fixo
+- Navegação por âncoras entre as seções
+- Layout responsivo com Media Queries
+- Estrutura semântica em HTML
+- Exemplos de código em linguagem C
+- Organização do conteúdo em tópicos
+
+---
+
+## 📋 Conteúdo da Documentação
+
+### Introdução à Linguagem C
+
+Apresentação da linguagem C, sua história e principais aplicações.
+
+### Variáveis e Tipos de Dados
+
+Explicação sobre declaração de variáveis e tipos de dados fundamentais.
+
+### Estruturas Condicionais
+
+Uso de estruturas `if`, `else` e `switch`.
+
+### Estruturas de Repetição
+
+Utilização de laços `for`, `while` e `do while`.
+
+### Funções
+
+Criação e utilização de funções para modularização de código.
+
+### Ponteiros
+
+Introdução ao conceito de ponteiros e manipulação de memória.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+technical-documentation-page/
+│
+├── public/
+│
+├── src/
+│   ├── main.js
+│   ├── style.css
+│   └── script.js
 │
 ├── index.html
-├── style.css
-├── script.js
 ├── package.json
+├── vite.config.js
 └── README.md
-📋 Conteúdo da Documentação
-Introdução à Linguagem C
-Variáveis e Tipos de Dados
-Estruturas Condicionais
-Estruturas de Repetição
-Funções
-Ponteiros e Memória
-🎯 Objetivo Acadêmico
+```
 
-O principal objetivo deste projeto é demonstrar conhecimentos em:
+---
 
-Estruturação semântica de páginas HTML.
-Estilização com CSS.
-Responsividade utilizando Media Queries.
-Organização de conteúdo técnico.
-Navegação interna em páginas web.
-🔗 Projeto Base
+## 🛠️ Como Executar
 
-Este trabalho foi desenvolvido com base no desafio Technical Documentation Page do FreeCodeCamp:
+### Clonar o repositório
 
-https://www.freecodecamp.org/learn/responsive-web-design/
+```bash
+git clone https://github.com/seu-usuario/technical-documentation-page.git
+```
 
-👨‍💻 Autor
+### Entrar na pasta
 
-João Preite
+```bash
+cd technical-documentation-page
+```
 
-Instituição: Instituto Federal de São Paulo – Campus São João da Boa Vista
+### Instalar dependências
 
-Ano: 2026
+```bash
+npm install
+```
+
+### Executar o projeto
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Objetivo
+
+Desenvolver uma página de documentação técnica que atenda aos requisitos do desafio **Technical Documentation Page** do FreeCodeCamp, aplicando conceitos de HTML semântico, CSS responsivo e organização de conteúdo técnico.
+
+---
+
+## ✅ Requisitos Atendidos
+
+- [x] Main com id `main-doc`
+- [x] Navbar com id `navbar`
+- [x] Seções com classe `main-section`
+- [x] Links de navegação internos
+- [x] Mais de 10 parágrafos
+- [x] Mais de 5 blocos de código
+- [x] Mais de 5 itens de lista
+- [x] Navbar fixa em telas grandes
+- [x] Uso de Media Query
+- [x] Layout responsivo
+
+---
+
+## 👨‍💻 Autor
+
+**João Preite**
+
+Instituto Federal de Educação, Ciência e Tecnologia de São Paulo – Campus São João da Boa Vista
+
+2026
